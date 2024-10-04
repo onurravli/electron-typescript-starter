@@ -1,0 +1,11 @@
+{
+  "name": "electron-typescript-starter",
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "electron dist/main.js"
+  }
+}
